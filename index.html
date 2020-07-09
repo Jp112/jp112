@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio</title>
+    <!-- css files -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+    <meta name="author" content="Hassan Ali">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="nav container void-background">
+        <!-- This "nav-menu" is hidden on mobile -->
+        <!-- Add the modifier "is-active" to display it on mobile -->
+        <div class="nav-left">
+            <a href="http://medium.com/@hassanhelfi/" class="nav-item">
+                <span class="icon">
+						<i class="fa fa-medium"></i>
+					</span>
+            </a>
+            <a href="http://github.com/helfi92" class="nav-item">
+                <span class="icon">
+						<i class="fa fa-instagram"></i>
+					</span>
+            </a>
+
+            <a href="https://twitter.com/hassanhelfi" class="nav-item">
+                <span class="icon">
+						<i class="fa fa-facebook"></i>
+					</span>
+            </a>
+        </div>
+
+        <div class="nav-right nav-menu">
+            <a class="nav-item" href="#about">About</a>
+            <a class="nav-item" href="#projects">Proyectos</a>
+            <a class="nav-item" href="#social">Social</a>
+        </div>
+
+        <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+        <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+        <span class="nav-toggle">
+				<span></span>
+        <span></span>
+        <span></span>
+        </span>
+    </nav>
+
+    <!-- About Me -->
+    <section id="about" class="section section-1">
+        <div class="container has-text-centered">
+            <!-- Source: https://flic.kr/p/pAZBNK -->
+            <img class="avatar" src="assets/img/profile.png">
+        </div>
+        <div class="container">
+            </br>
+            <p class="intro">
+                Ing en Sistemas Josue Puente, Front-End Developer Junior , especializado en PWA (Aplicaciones web progesiva), trabjando actualmente en IONIC, ANGULAR
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section section-2">
+        <div class="container">
+            <div class="has-text-centered">
+                <h3 class="title is-3">Proyectos</h3>
+            </div>
+
+            <div class="columns is-multiline is-desktop">
+                <!-- Project 1 -->
+                <div class="column">
+                    <div class="box project-text">
+                        <article>
+                            <div>
+                                <figure class="image project-figure">
+                                    <img src="assets/img/crm.JPG" alt="Image" style="height: 120px;">
+                                </figure>
+                            </div>
+                            <div>
+                                <p>
+                                    Sistema de control de ventas para asesores.
+                                </p>
+                                <a href="https://crm.lcmundo.com/">LC CRM</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="column">
+                    <div class="box project-text">
+                        <article>
+                            <div>
+                                <figure class="image project-figure">
+                                    <img src="assets/img/astek.JPG" alt="Image" style="height: 120px;">
+                                </figure>
+                            </div>
+                            <div>
+                                <p>
+                                    Sistema Help-Desk.
+                                </p>
+                                <a href="https://proyectoastec.yadiragonzalez.xyz/home">Astec</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box project-text">
+                        <article>
+                            <div>
+                                <figure class="image project-figure">
+                                    <img src="assets/img/migraciones.JPG" alt="Image" style="height: 120px;">
+                                </figure>
+                            </div>
+                            <div>
+                                <p>
+                                    Sistema de migraciones por lote.
+                                </p>
+                                <a href="https://migraciones.lcmundo.com/login">LC Migraciones</a>
+
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box project-text">
+                        <article>
+                            <div>
+                                <figure class="image project-figure">
+                                    <img src="assets/img/afiliado.JPG" alt="Image" style="height: 120px;">
+                                </figure>
+                            </div>
+                            <div>
+                                <p>
+                                    Sistema de búsqueda de programas de estudio y vincular en otros sitio web.
+                                </p>
+                                <a href="https://afiliados.lcmundo.com/home">LC Afiliado</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <section class="section-4 has-text-centered container">
+        <ul>
+            <li class="info"><b>Josue Puente</b>
+                <span style='font-size:25px;'>&#128113;</span>
+            </li>
+            <li class="info"><b>+58 0414 763 29 59</b>
+                <span style='font-size:25px;'>&#9742;</span>
+            </li>
+            <li class="info"><b>Ing en Sistema - Front-End </b>
+                <span style='font-size:25px;'>&#128187;</span>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Scripts  -->
+    <script src="controller.js"></script>
+</body>
+
+</html>
